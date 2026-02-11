@@ -1,0 +1,32 @@
+body {
+    background-color: #313338;
+}
+
+.Barra_lateral--izquierda {
+    border: 4px solid white;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: left;
+    justify-self: left;
+}
+
+.titulo {
+    font-size: 60px;
+    background-color: rgb(4, 59, 85);
+    color: white;
+}
+
+.grande {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+th {
+    background-color: #444852;
+}
+
+.informacion {
+    text-align: center;
+    color: whitesmoke;
+}
+

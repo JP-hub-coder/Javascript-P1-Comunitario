@@ -15,6 +15,7 @@ console.log(operacionesBasicas);
 uniontextos=texto1+texto2; //Concatenación
 console.log(uniontextos);
 
+
 //Funciones con parametros y con retorno
 function sumar(a,b) {
     return a+b;
@@ -22,12 +23,14 @@ function sumar(a,b) {
 
 console.log(sumar(1,3));//forma de llamarla
 
+
 //Funciones con parametros y sin retorno
 function sumarSR(a,b) {
     console.log(a+b);
 }
 
 sumarSR(2,8);//forma de llamarla
+
 
 //Funciones sin parametros y con retorno
 function sumaSP() {
@@ -37,9 +40,14 @@ function sumaSP() {
 
 console.log(sumaSP());//forma de llamarla
 
+
 //Funciones sin parametros y sin retorno
 function sumaSN() {
     console.log(10);
 }
 
 sumaSN();
+
+//Ingresar datos externos
+//NombrePersona = prompt("Ingrese el nombre de la persona:");
+//alert("Su nombre es: " + NombrePersona);
