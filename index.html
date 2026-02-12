@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="./Styles/style.css">
+</head>
+<body> 
+    <!-- <div class="Barra_lateral--izquierda">
+        <div class="titulo">Hello Administrator</div>
+        <div>Perfil de Administrador</div><br>
+        <div>Número de identificación</div>
+        <div>Nombres</div>
+        <div>Apellidos</div>
+        <div>Dirección</div>
+        <div>Acudiente</div>
+        <div>Teléfonos de contacto(número de celular y número fijo)</div>
+        <div>Estado (en proceso de ingreso, inscrito, aprobado, cursando, graduado, expulsado, retirado)</div>
+        <div>Riesgo</div>
+    </div> -->
+    <div class="barra__superior">
+        <img src="./Logo.png">
+    </div>
+
+    <table class="tabla">
+        <caption>Información Campers CAMPUSLANDS</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Dirección</th>
+                <th>Acudiente</th>
+                <th>Teléfono</th>
+                <th>Estado</th>
+                <th>Riesgo</th>
+            </tr>
+        </thead>
+        <tbody id="info_campers"></tbody>
+    </table>
+
+<form id="Editar">
+    <input type="text" id="id" placeholder="ID del camper" required>
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="text" id="apellidos" placeholder="Apellidos">
+    <input type="text" id="direccion" placeholder="Dirección">
+    <input type="text" id="acudiente" placeholder="Acudiente">
+    <input type="number" id="telefono" placeholder="Teléfono">
+    <input type="estado" id="estado" placeholder="Estado">
+    <input type="riesgo" id="riesgo" placeholder="Riesgo">
+    <button type="submit">Actualizar</button>
+</form>
+
+</body>
+<script src="./scripts/script.js"></script>
+</html>
